@@ -781,6 +781,22 @@ address {
   text-transform: uppercase;
   color: var(--second-text);
 }
+
+.connect {
+  margin-left: 93px;
+  display: inline-flex;
+  flex-direction: column;
+}
+.support {
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: var(--second-text);
+}
+
 /* Позиционирование */
 .desktop,
 .mobile,
