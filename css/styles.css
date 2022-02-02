@@ -1206,9 +1206,7 @@ address {
   letter-spacing: 0.06em;
   color: var(--second-text);
 }
-.checkboxline {
-  text-align: center;
-}
+
 .termspack {
   line-height: calc(24 / 14);
   color: var(--blue-text);
@@ -1243,9 +1241,9 @@ address {
   margin-right: 8px;
 }
 .inputcheckbox:checked + .textcheckbox::before {
-  background-image: url(../images/bird.svg);
-  background-color: var(--blue-text);
-  border: transparent;
-  background-size: contain;
-  background-origin: border-box;
+  border: none;
+  background-image: url(../images/icon-check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
