@@ -681,25 +681,21 @@ nav {
 }
 /* присоединяйтесь футер */
 
-footer {
-  display: flex;
-}
 .footer-background {
   background: var(--background-dark);
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footone {
-  display: inline-flex;
-  flex-direction: column;
-}
+
 address {
+  margin-top: 20px;
+}
+.container.footer {
   display: flex;
+  align-items: baseline;
 }
 .foottwo {
   margin-left: 70px;
-  display: inline-flex;
-  flex-direction: column;
 }
 .marka-foot p {
   font-style: normal;
@@ -829,9 +825,7 @@ address {
 }
 
 .connect {
-  margin-left: 93px;
-  display: inline-flex;
-  flex-direction: column;
+  margin-left: auto;
 }
 .support {
   margin-bottom: 20px;
