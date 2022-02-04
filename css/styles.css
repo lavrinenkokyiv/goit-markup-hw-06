@@ -781,10 +781,16 @@ address {
   text-transform: uppercase;
   color: var(--second-text);
 }
+.yourmail {
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
 .yourmail input {
+  color: var(--second-text);
   width: 358px;
   height: 50px;
-  margin: 0;
   padding: 15px 16px 15px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
@@ -792,18 +798,13 @@ address {
   border-radius: 4px;
   background: var(--background-dark);
 }
-.sendbutton {
-  position: relative;
-  display: inline-flex;
-  margin-left: 12px;
-  flex-direction: column;
-}
 .buttsend {
-  position: absolute;
-  top: 23px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  text-align: center;
   justify-content: center;
+  margin-left: 12px;
+  padding: 0;
   border: none;
   width: 200px;
   height: 50px;
